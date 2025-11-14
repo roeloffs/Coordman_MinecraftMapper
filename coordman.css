@@ -32,33 +32,3 @@ body {
   font-size: 24px;
   padding: 1px 5px 1px 5px;
 }
-
-#sidebar {
-  position: fixed;
-  z-index: 1000;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 0;
-  transition: 0.5s;
-  background-color: white;
-  border-color: black;
-  border-width: 2px;
-  overflow-x: hidden;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-#sidebar a {
-  text-decoration: none;
-  color: blue;
-}
-.closebtn {
-  color: black!important;
-  position: absolute;
-  top: 0;
-  left: 5px;
-  font-size: 36px;
-  margin-right: 50px;
-  text-decoration: none;
-}
