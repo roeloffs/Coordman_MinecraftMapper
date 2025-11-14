@@ -12,8 +12,16 @@
   crossorigin=""></script>
 </head>
 <body>
-<div id="map"></div>
-<div id="coords"><div id="coordstext">Coords: 0,0</div></div>
+<div id="map">
+ <div class="leaflet-bottom leaflet-left">
+    <input type="button" id="btnToggleCoords" value="Toggle Coordinates" onclick="toggleCoords()" class="btnStyle span3 leaflet-control" />
+  </div>
+  <div class="leaflet-top leaflet-right" style="padding: 60px 3px;">
+    <input type="button" id="btnLayers" value="Layers"  onclick="openLayers()" class="btnStyle span3 leaflet-control" />
+    <input type="button" id="btnSettings" value="Settings"  onclick="openSettings()" class="btnStyle span3 leaflet-control" />
+  </div>
+</div>
+<div id="coords"><div id="coordstext"></div></div>
 
 <script src="coordman.js"></script>
 </body>
