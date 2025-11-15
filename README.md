@@ -1,16 +1,12 @@
-# Coordman
+# Coordman for MinecraftMapper
 
-**Coordman** is a simple yet powerful waypoint and map manager for Minecraft.
+**Coordman for MinecraftMapper** is a specialized edition of Coordman that integrates fully within the MinecraftMapper application.
+> _Shout-out to [Rebane](https://github.com/rebane2001) for the [original Coordman](https://github.com/rebane2001/coordman), without the original I probably never started working on this._
 
-[![example](images/example.png?raw=true)](example-user-data.js)
+![example](images/example.png?raw=true)
 
 # Features
- - JourneyMap map import
- - Overworld, Nether, and The End dimensions
- - Nether and Overworld combo-view
- - Various overlays
+ - Embeds within MinecraftMapper application, useless without it
  - Zoom-out far (all the way to the worldborder!)
- - Extremely customizable waypoints
- - Separately toggleable waypoint groups
  - Fast and responsive
- - Semi-offline (no data is sent to a server)
+ - Offline (no data is sent to a server)
